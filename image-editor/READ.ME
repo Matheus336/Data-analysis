@@ -1,0 +1,35 @@
+# READ.ME Webcam Filter Effects
+
+
+## Overview
+
+The Webcam Filter Effects project is a Python script designed to apply various filters to a live webcam video stream in Google Colab. The script captures video from the webcam, processes it with different effects (enhancement, sepia, and oil painting), and displays the filtered frames.
+
+
+## Features
+
+- Captures live video from the webcam.
+- Applies multiple filters to enhance or transform the video feed.
+- Displays original and processed frames with OpenCV in a Colab notebook.
+- Real-time interaction with the video stream using JavaScript and Python integration.
+- Filters Available:
+	Enhancement Filter: Applies a detail enhancement by subtracting a blurred version of the frame from the original, creating a sharper, more detailed image.
+	Sepia Filter: Applies a classic sepia tone to the image, giving it a warm, vintage look.
+	Oil Painting Filter: Transforms the image into a painterly effect, mimicking the style of an oil painting.
+
+## Requirements
+
+- Python 3.x
+- OpenCV (cv2)
+- NumPy
+- Google Colab (for seamless webcam integration and display)
+
+
+## Usage
+- Start Video Stream: The video_stream() function initializes and starts capturing video from your webcam.
+- Apply Filters: The script automatically applies the enhancement, sepia, and oil painting filters to the webcam frames.
+- View Results: The original and filtered frames are displayed within the Colab notebook using cv2_imshow().
+- Stop Video Stream: After processing, the video stream is stopped automatically.
+
+## Contributing
+Contributions are welcome! If you want to improve the project, please feel free to submit a pull request or open an issue for enhancements or bug fixes.
